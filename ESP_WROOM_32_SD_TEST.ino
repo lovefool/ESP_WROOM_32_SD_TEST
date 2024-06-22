@@ -1,6 +1,13 @@
+/*
+【ESP32】SDカードモジュールでロガーを作る【SPI通信】
+https://www.youtube.com/watch?v=SS6xEQ-b7LY
+
+2024.06.22 (COmplete)
+*/
+
 #include <SD.h>
 
-//SDモジュール(ESP32devkitC): CS(5),SCK(18),MOSI(23),MISO(19),VCC(5V),GND(GND)
+//SDモジュール(ESP-WROOM-32D): CS(5),SCK(18),MOSI(23),MISO(19),VCC(5V),GND(GND)
 
 const int chipSelect = 5;  // CSピンの番号　GPIO5
 
