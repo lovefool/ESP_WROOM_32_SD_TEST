@@ -6,6 +6,7 @@ https://www.youtube.com/watch?v=SS6xEQ-b7LY
 */
 
 #include <SD.h>
+#include <SPI.h>
 
 //SDモジュール(ESP-WROOM-32D): CS(5),SCK(18),MOSI(23),MISO(19),VCC(5V),GND(GND)
 
